@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="formBackground">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="loginForm">
+            <form name="accessForm" action="https://www.w3schools.com/css/default.asp" method="post" onsubmit=" return validuser()" autocomplete="off" >
+                <div class="title">
+                    <h3>Login Here</h3>
+                  </div>
+                <div class="inputGroup">
+                    <label for="user">User Name:</label>
+                    <input type="text" id="user" name="user" placeholder="Enter Your Name" value="" required >
+                    <span id="nameError"></span>
+                </div>
+                
+                <div class="inputGroup">
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pass"  placeholder="Password" value="" required>
+                    <span id="passError"></span>
+                </div>
+                    
+                    <input type="submit" class="submitForm" name="submit" Value="Login" >
+                <div class="social">
+                    <div class="gb"><i class="fab fa-google"></i></div>
+                    <div class="fb"><i class="fab fa-facebook"></i></div>
+                    <div class="tw"><i class="fab fa-twitter"></i></i></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="resources/js/login.js"></script>
+</html>
